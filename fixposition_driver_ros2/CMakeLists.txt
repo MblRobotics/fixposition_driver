@@ -27,6 +27,7 @@ find_package(rtcm_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   msg/Speed.msg
+  msg/VRTK.msg
   msg/Gnsssats.msg
   msg/NMEA.msg
   msg/WheelSensor.msg
